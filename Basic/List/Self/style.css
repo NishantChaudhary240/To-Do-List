@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #444;
+}
+
+.main-container{
+    /* overflow: scroll; */
+    margin-top: 100px;
+    margin-left: 40%;
+    margin-right:40%;
+    background-color: #343434;
+    padding: 40px 20px;
+    height: 70vh;
+    border: 1px solid #4b4b4b;
+    border-radius: 30px;
+}
+
+.item{
+    color: #858585;
+    padding: 16px 30px;
+    
+}
+.item:hover{
+    color: white;
+    background-color: #4b4b4b;
+    border: 1px solid #585858;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+
+}

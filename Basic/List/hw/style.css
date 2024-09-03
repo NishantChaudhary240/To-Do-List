@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    border-radius: 50px;
+    box-shadow: 1px 1px 50px 1px rgba(162, 113, 113, 0.5);
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(247, 232, 234);
+    height: 80vh;
+    padding: 100px 150px;
+    
+}
+.add-item{
+    display:flex;
+    
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.items{
+    
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-area{
+    margin-left:10px ;
+   width: 480px;
+   height: 30px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+}
